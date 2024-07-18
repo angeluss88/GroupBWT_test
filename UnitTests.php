@@ -3,7 +3,6 @@
 use PHPUnit\Framework\TestCase;
 
 $argv[1] = 'emptyInput.txt';
-$argv[2] === '--hardcodedRates';
 require 'app.php';
 
 class UnitTests extends TestCase
